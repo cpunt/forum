@@ -1,0 +1,69 @@
+.circleBtn  {
+  color: rgb(215, 218, 220);
+  font-size: 18px;
+  background-color: rgba(26, 26, 27, 0.8);
+  border: 2px solid rgb(52, 53, 54);
+  border-radius: 1%;
+  cursor: hand;
+  width: 114px;
+  margin-bottom: 5px;
+}
+
+.circleBtn:hover {
+  border: 2px solid white;
+}
+
+.circleBtn:focus {
+  outline:0;
+}
+
+.details {
+  margin: 0;
+  color: rgb(215, 218, 220);
+  font-size: inherit;
+  font-family: inherit;
+  border-bottom: 2px dotted rgb(52, 53, 54);
+}
+
+#centerCon {
+  text-align: center;
+}
+
+#banner {
+  background-color: tomato;
+  height: 64px;
+  overflow: auto;
+}
+
+#bannerCN {
+  font-size: 22px;
+  margin-left: 25px;
+  line-height: 23px;
+}
+
+#bannerCN a {
+  font-size: inherit;
+  color: #fcfcfb;
+}
+
+#memberDiv {
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  width: 200px;
+  text-align: center;
+  border: 2px solid rgb(52, 53, 54);
+  border-radius: 5%;
+  background-color: black;
+  color: rgb(215, 218, 220);
+  text-align: center;
+}
+
+#otherDiv, #divPost {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#joinBtn, #leaveBtn {
+  margin-top: 5px;
+}

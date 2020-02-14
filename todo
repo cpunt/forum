@@ -1,0 +1,41 @@
+To do
+
+Add no posts when circle has no posts
+
+Keep track of last post as offset
+
+Set limit on posts made per minute
+
+Set limit on circles created
+
+On post circle list only show 10 options or so at a time n ajax in new results
+
+give option to delete account, what happens when deleted?
+
+Set max amount of pw attempts or limit on each attempt
+
+General
+-Cant save comment / post twice
+-Cant join circle twice
+-Make harder to delete username & what happens if user deleted to circle owner?
+
+Login & signup
+-If username to long change error message on signup
+
+login_signup model
+-Change login and sign up to setter methods when validating
+
+blacklist words?
+Change error reporting
+Add better sql error reporting
+
+View_post view / edit
+-Be able to edit and reply to comments
+
+Post
+  Finish post validation ie add text errors
+
+Ideas
+-Tags?
+-My settings?
+-Create chain comments?

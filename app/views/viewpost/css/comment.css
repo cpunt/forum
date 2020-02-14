@@ -1,0 +1,89 @@
+.comment {
+  margin: 0;
+  margin-left: 5px;
+}
+
+.commentBar {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  width: 500px;
+  border-top: 2px solid rgb(52, 53, 54);
+  overflow: hidden;
+}
+
+.replyCom {
+  float: left;
+  text-align: left;
+  margin: 0;
+  margin-left: 5px;
+}
+
+.userCom {
+  margin: 0;
+  margin-left: 5px;
+}
+
+.commentCon {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  text-align: left;
+  background-color: rgba(26, 26, 27, 0.8);
+  overflow: hidden;
+  cursor: hand;
+}
+
+.commentCon pre {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.commentDiv {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border: 2px solid rgb(52, 53, 54);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 1%;
+}
+
+.commentDiv:hover {
+  border: 2px solid white;
+}
+
+.linkCom {
+  text-decoration: none;
+}
+
+.linkCom:hover {
+  text-decoration: underline;
+}
+
+.userCom .linkCom {
+  font-size: 12px;
+  color: inherit;
+}
+
+
+
+.editCom, .deleteCom, .saveCom {
+  text-align: right;
+  float: right;
+  margin: 0;
+  margin-right: 5px;
+}
+
+.replyCom, .editCom, .deleteCom, .saveCom{
+  font-size: 12px;
+  width: 60px;
+  margin-top: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.replyCom:hover, .editCom:hover, .deleteCom:hover, .saveCom:hover {
+  text-decoration: underline;
+}

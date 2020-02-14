@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(39, 39, 41);
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: rgb(215, 218, 220);
+}
+
+pre {
+  font-family: 'IBM Plex Sans', sans-serif;
+  white-space: pre-wrap;
+}
+
+.comment {
+  display: block;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.editDiv, .commentBar {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  width: 500px;
+  border-top: 2px solid rgb(52, 53, 54);
+  overflow: hidden;
+}
+
+.delete, .edit, .save, .comments, .replyCom, .editCom, .deleteCom, .saveCom {
+  font-size: 12px;
+  width: 60px;
+  margin: 0;
+  margin-top: 5px;
+  cursor: hand;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.replyCom, .comments {
+  float: left;
+  margin-left: 5px;
+  text-align: left;
+}
+
+.comments{
+  overflow: hidden;
+  width: auto;
+  max-width: 150px;
+  height: 15px;
+}
+
+.comments a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.commentImg {
+  margin-top: 5px;
+  float: left;
+  margin-left: 5px;
+}
+
+.delete, .edit, .save, .editCom, .deleteCom, .saveCom {
+  text-align: right;
+  float: right;
+}
+
+.delete:hover, .edit:hover, .save:hover, .comments:hover, .replyCom:hover, .editCom:hover, .deleteCom:hover, .saveCom:hover {
+  text-decoration: underline;
+}
+
+.userCom {
+  color: inherit;
+  margin: 0;
+}
+
+.userCom .linkCom {
+  font-size: 12px;
+}
+
+.posted {
+  font-size: 12px;
+}
+
+.post, .linkCom {
+  display: inline-block;
+}
+
+.post, .userCom {
+  margin-left: 5px;
+}
+
+.link {
+  color: rgb(65, 147, 198);
+  margin-left: 3px;
+}
+
+.linkCom {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover, .linkCom:hover {
+  text-decoration: underline;
+}
+
+.commentCon, .orgPost {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  text-align: left;
+  background-color: rgba(26, 26, 27, 0.8);
+  overflow: hidden;
+}
+
+.postSection {
+  cursor: hand;
+}
+
+.commentCon {
+  border-top: 2px solid rgb(52, 53, 54);
+  cursor: hand;
+}
+
+.imgBox {
+  margin-right: 5px;
+}
+
+.commentDiv {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  border: 2px solid rgb(52, 53, 54);
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 1%;
+}
+
+.postCon {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  min-height: 100px;
+  max-height: 600px;
+  text-align: left;
+  background-color: rgba(26, 26, 27, 0.8);
+  border: 2px solid rgb(52, 53, 54);
+  border-radius: 1%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border: 2px solid rgb(52, 53, 54);
+}
+
+.postCon:hover, .commentDiv:hover {
+  border: 2px solid white;
+}
+
+.title {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.header {
+  margin-top: 0px;
+}
+
+.user {
+  width: 250px;
+  float: right;
+  text-align: right;
+}
+
+.user, .user a {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.user a:hover {
+  text-decoration: underline;
+}
+
+.circle {
+  min-width: auto;
+  max-width: 200px;
+  font-size: 14px;
+  cursor: hand;
+}
+
+.circle a, .user a {
+  text-decoration: none;
+  color: rgb(215, 218, 220);
+}
+
+.circle:hover {
+  text-decoration: underline;
+}
+
+.url {
+  text-decoration: none;
+  color: rgb(65, 147, 198);
+  margin-left: 3px;
+}
+
+.url:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin: 0;
+}
+
+.vid, .image {
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  min-width: 100px;
+  min-height: 100px;
+  max-height: 500px;
+  max-width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.userProfileOp {
+  display: inline-block;
+  margin-right: 60px;
+  margin-left: 20px;
+  color: rgb(215, 218, 220);
+  text-decoration: none;
+}
+
+.userProfileOp:hover {
+  text-decoration: underline;
+}
+
+.user, .circle {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.title, .user, .circle, pre{
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0;
+}
+
+#userProfileCon {
+  border-top: 2px solid rgb(52, 53, 54);
+  border-bottom: 2px solid rgb(52, 53, 54);
+  border-radius: 1%;
+  background-color: black;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#divPost {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  min-height: 500px;
+  margin-top: 20px;
+  background-color: black;
+  color: rgb(215, 218, 220);
+  text-align: center;
+  border: 2px solid rgb(52, 53, 54);
+  border-radius: 10px;
+  overflow: auto;
+}

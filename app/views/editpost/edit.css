@@ -1,0 +1,46 @@
+.editBtn {
+  cursor: pointer;
+  width: 54px;
+  outline: none;
+}
+
+.edit {
+  display: none;
+}
+
+#btns {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+}
+
+#content {
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 100px;
+  max-height: 250px;
+  margin-top: 10px;
+  font-size: inherit;
+  color: rgb(215, 218, 220);
+  outline: none;
+}
+
+#content:focus {
+  border-color: white;
+}
+
+#update {
+  margin-left: 5px;
+}
+
+#load, #update {
+  margin-top: 5px;
+}
+
+#content, .editBtn {
+  background-color: rgba(26, 26, 27, 0.8);
+  border: 2px solid rgb(52, 53, 54);
+  border-radius: 1%;
+  color: rgb(215, 218, 220);
+}

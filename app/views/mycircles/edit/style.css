@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(39, 39, 41);
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: rgb(215, 218, 220);
+}
+
+textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  color: rgb(215, 218, 220);
+}
+
+button:focus {
+  outline:0;
+  border-color: white;
+}
+
+.header {
+  font-family: 'IBM Plex Sans', sans-serif;
+  /* margin-top: 0px; */
+}
+
+.btn {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: rgba(26, 26, 27, 0.8);
+  border: 2px solid rgb(52, 53, 54);
+  border-radius: 1%;
+  cursor: hand;
+  color: rgb(215, 218, 220);
+}
+
+#banner {
+  background-color: tomato;
+  height: 64px;
+  overflow: auto;
+}
+
+#bannerCN {
+  font-size: 22px;
+  margin-left: 25px;
+  line-height: 23px;
+}
+
+#bannerCN a {
+  font-size: inherit;
+  color: #fcfcfb;
+}
+
+#circleDiv {
+  width: 600px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+  background-color: black;
+  color: rgb(215, 218, 220);
+  font-family: arial;
+  border: 2px solid rgb(52, 53, 54);
+  border-radius: 10px;
+}
+
+#des {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 450px;
+  height: 150px;
+  color: rgb(215, 218, 220);
+  font-size: inherit;
+  background-color: rgba(26, 26, 27, 0.8);
+  border: 2px solid rgb(52, 53, 54);
+  border-radius: 1%;
+}
+
+#des:focus {
+  border-color: white;
+}

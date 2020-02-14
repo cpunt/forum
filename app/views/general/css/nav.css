@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(39, 39, 41);
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: rgb(215, 218, 220);
+}
+
+.navBtn:hover, .dropDownBtn:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.dropDownBtn {
+  display: block;
+  line-height: 25px;
+}
+
+.navBtn, .dropDownBtn {
+  font-size: 18px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-decoration: none;
+  cursor: hand;
+  color: rgb(215, 218, 220);
+}
+
+#forumTitle, .navBtn {
+  line-height: 30px;
+  display: inline-block;
+  margin: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+  vertical-align: top;
+}
+
+#forumTitle {
+  text-align: center;
+  width: 80px;
+  font-size: 22px;
+}
+
+#userOps {
+  float: right;
+  border-left: 1px solid white;
+  height: 30px;
+}
+
+#dropDown {
+  width: 150px;
+}
+
+#mainOptions, #userOps, #dropDown {
+  vertical-align: top;
+  display: inline-block;
+}
+
+#navBar {
+  background-color: black;
+  height: 30px;
+  border-bottom: rgb(52, 53, 54) solid 2px;
+}
+
+#myDropdown {
+  background-color: black;
+  display: none;
+  position: absolute;
+  width: 100px;
+  border-left: rgb(52, 53, 54) solid 2px;
+  border-bottom: rgb(52, 53, 54) solid 2px;
+  border-right: rgb(52, 53, 54) solid 2px;
+}

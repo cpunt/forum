@@ -1,0 +1,5 @@
+/.git
+/app/config
+/app/models/tokens
+/vendor
+/template

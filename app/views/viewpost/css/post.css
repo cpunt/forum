@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(39, 39, 41);
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: rgb(215, 218, 220);
+}
+
+pre {
+  font-family: 'IBM Plex Sans', sans-serif;
+  white-space: pre-wrap;
+}
+
+.editDiv {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 3px;
+  width: 500px;
+  border-top: 2px solid rgb(52, 53, 54);
+  overflow: hidden;
+}
+
+.save {
+  width: 35px;
+}
+
+.delete, .edit, .save, .comments {
+  font-size: 12px;
+  margin: 0;
+  margin-top: 5px;
+  cursor: pointer;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.delete, .edit, .save {
+  margin-left: 20px;
+  text-align: left;
+  float: right;
+}
+
+.comments {
+  float: left;
+  margin-left: 5px;
+  text-align: left;
+  overflow: hidden;
+  width: auto;
+  max-width: 150px;
+  height: 15px;
+}
+
+.commentImg {
+  margin-top: 5px;
+  float: left;
+  margin-left: 5px;
+}
+
+.linkPost {
+  text-decoration: none;
+  color: rgb(65, 147, 198);
+  float: left;
+  margin-left: 50px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.linkPost:hover {
+  text-decoration: underline;
+}
+
+.delete:hover, .edit:hover, .save:hover, .comments:hover {
+  text-decoration: underline;
+}
+
+.posted {
+  font-size: 12px;
+}
+
+.posted, .link {
+  display: inline-block;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.title {
+  text-decoration: underline;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  color: rgb(215, 218, 220);
+}
+
+.user {
+  margin: 0;
+  margin-right: 50px;
+  float: right;
+  text-align: right;
+}
+
+.user, .user a {
+  font-size: 12px;
+  display: inline-block;
+}
+
+.user a:hover {
+  text-decoration: underline;
+}
+
+.user a {
+  text-decoration: none;
+  color: rgb(215, 218, 220);
+}
+
+.content {
+  margin: 0;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.vid, .image {
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  min-width: 100px;
+  min-height: 100px;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.circleBtn {
+  cursor: pointer;
+}
+
+#centerCon {
+  text-align: center;
+}

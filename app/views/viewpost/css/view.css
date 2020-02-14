@@ -1,0 +1,111 @@
+.details {
+  margin: 0;
+  color: rgb(215, 218, 220);
+  font-size: inherit;
+  font-family: inherit;
+  border-bottom: 2px dotted rgb(52, 53, 54);
+}
+
+.circleBtn:focus {
+  outline:0;
+}
+
+.circleBtn  {
+  color: rgb(215, 218, 220);
+  font-size: 18px;
+  background-color: rgba(26, 26, 27, 0.8);
+  border: 2px solid rgb(52, 53, 54);
+  border-radius: 1%;
+  cursor: hand;
+  width: 114px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.circleBtn:hover {
+  border: 2px solid white;
+}
+
+#banner {
+  background-color: tomato;
+  height: 64px;
+  overflow: auto;
+}
+
+#bannerCN {
+  font-size: 22px;
+  line-height: 23px;
+  margin-left: 25px;
+}
+
+#bannerCN a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#bannerCN a:hover {
+  text-decoration: underline;
+}
+
+#memberDiv {
+  width: 200px;
+}
+
+#memberDiv, #postDiv {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#postDiv {
+  width: 600px;
+  max-height: 600px;
+  overflow: auto;
+}
+
+#postDiv, #memberDiv, #commentSection {
+  color: rgb(215, 218, 220);
+  background-color: black;
+  margin-top: 20px;
+  border: 2px solid rgb(52, 53, 54);
+  border-radius: 1%;
+  margin-right: 15px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+#commentSection {
+  margin-left: auto;
+  margin-right: auto;
+  width: 834px;
+}
+
+#commentBtn, #commentBox {
+  background-color: rgba(26, 26, 27, 0.8);
+  border: 2px solid rgb(52, 53, 54);
+  border-radius: 1%;
+  color: rgb(215, 218, 220);
+}
+
+#commentBtn {
+  margin-top: 5px;
+  cursor: not-allowed;
+  color: gray;
+  outline: none;
+}
+
+#commentBox {
+  width: 500px;
+  min-height: 100px;
+  max-height: 200px;
+  min-width: 100px;
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  outline: none;
+}
+
+#commentBox:focus, #commentBtn:focus {
+  border-color: white;
+}

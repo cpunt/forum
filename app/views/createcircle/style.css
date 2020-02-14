@@ -1,0 +1,70 @@
+textarea {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+  color: rgb(215, 218, 220);
+  height: 250px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  border-color: white;
+}
+
+.header {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-top: 0px;
+}
+
+.btn {
+  margin-top: 10px;
+  background-color: rgba(26, 26, 27, 0.8);
+  border: 2px solid rgb(52, 53, 54);
+  border-radius: 1%;
+  cursor: hand;
+  color: rgb(215, 218, 220);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputFields {
+  width: 500px;
+  color: rgb(215, 218, 220);
+  font-size: inherit;
+  background-color: rgba(26, 26, 27, 0.8);
+  border: 2px solid rgb(52, 53, 54);
+  border-radius: 1%;
+}
+
+.inputFields:focus {
+  border: 2px solid white;
+}
+
+#circleDescription {
+  height: 70px;
+  overflow: scroll;
+  margin-top: 10px
+}
+
+#circleDiv {
+  width: 600px;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: black;
+  color: rgb(215, 218, 220);
+  font-family: arial;
+  border-radius: 10px;
+  border: 2px solid rgb(52, 53, 54);
+  margin-top: 20px;
+}
